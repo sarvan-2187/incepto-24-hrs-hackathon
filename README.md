@@ -141,4 +141,4 @@ http://localhost:3000
 ## Team
 
 Team CodeManiacs  
-Hackathon Project – SkillTorch
+Hackathon Project – Skill Torch
