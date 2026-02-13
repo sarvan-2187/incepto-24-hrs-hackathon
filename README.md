@@ -1,4 +1,4 @@
-# SkillTorch
+# Skill Torch
 
 **AI-Based Upskilling & Job Matching Platform for Agniveers**
 
