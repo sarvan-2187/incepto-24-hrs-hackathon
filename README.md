@@ -2,7 +2,7 @@
 
 **AI-Based Upskilling & Job Matching Platform for Agniveers**
 
-SkillTorch is an AI-powered career transition platform specifically designed to help Agniveers translate their military service experience into structured civilian employment opportunities.
+Skill Torch is an AI-powered career transition platform specifically designed to help Agniveers translate their military service experience into structured civilian employment opportunities.
 
 It bridges discipline with digital transformation through AI-driven skill mapping, resume generation, and intelligent job matching.
 
