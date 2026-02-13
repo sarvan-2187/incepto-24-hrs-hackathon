@@ -1,36 +1,144 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SkillTorch
 
-## Getting Started
+**AI-Based Upskilling & Job Matching Platform for Agniveers**
 
-First, run the development server:
+SkillTorch is an AI-powered career transition platform specifically designed to help Agniveers translate their military service experience into structured civilian employment opportunities.
+
+It bridges discipline with digital transformation through AI-driven skill mapping, resume generation, and intelligent job matching.
+
+---
+
+## Architecture Diagram
+<img width="2752" height="1536" alt="architecture_skill_torch" src="https://github.com/user-attachments/assets/2d7971c3-c745-432e-ae0b-2c21666ee600" />
+
+---
+
+## Problem Statement
+
+Agniveers serve the nation under the Agnipath Scheme for four years. After completion of service, many face challenges such as:
+
+- Difficulty translating military roles into corporate job profiles  
+- Lack of structured skill-gap analysis  
+- Limited access to targeted upskilling programs  
+- Generic job portals not tailored to their background  
+
+SkillTorch provides a specialized AI ecosystem to solve this.
+
+---
+
+## Proposed Solution
+
+SkillTorch is a web-based platform offering:
+
+- AI-powered skill mapping (Military → Civilian translation)
+- Personalized upskilling roadmap
+- LaTeX-based resume builder tailored for Agniveers
+- Smart AI-driven job matching
+- Recruiter dashboard
+- Integrated chat & video interview system
+- AI career guidance & mental wellness support
+- Role-based authentication
+- Multi-language support (planned)
+
+---
+
+## System Architecture Overview
+
+### Client Layer
+- Web Browser (Desktop & Mobile)
+
+### Frontend
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- Shadcn UI
+
+### Backend
+- Node.js
+- Next.js API Handlers
+- Role-Based Access Control
+
+### Database
+- MongoDB Atlas
+
+### Authentication
+- Firebase Authentication
+
+### AI Integrations
+- Gemini API
+- Groq API
+- Custom Skill Mapping Logic
+
+### Video Interview
+- ZegoCloud SDK
+
+### Deployment
+- Vercel
+- GitHub
+
+---
+
+## Current Implementation Status
+
+- Landing Page Frontend Completed  
+- Backend, Database, and AI modules architected and structured for implementation  
+
+This repository currently contains the fully developed landing page built using Next.js and Tailwind CSS as part of the hackathon MVP phase.
+
+---
+
+## Landing Page Features (Implemented)
+
+- Hero section with value proposition
+- Feature highlights
+- How it works section
+- Call-to-action sections
+- Responsive layout (Desktop + Mobile)
+- Clean modern UI
+
+---
+
+## Expected Impact
+
+With structured AI-based transition support:
+
+- Reduced job search time (2–3 months → 2–3 weeks)
+- Increased placement diversity across sectors (IT, Corporate, Technical roles)
+- Reduced hiring costs for employers
+- Structured digital onboarding ecosystem for Agniveers
+
+---
+
+## Installation
 
 ```bash
+git clone https://github.com/sarvan-2187/incepto-24-hrs-hackathon.git
+cd skilltorch
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open in browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Future Roadmap
 
-To learn more about Next.js, take a look at the following resources:
+- AI Resume Generation Engine
+- Skill Gap Analysis Dashboard
+- Recruiter Verification System
+- Smart Job Matching Algorithm
+- Admin Control Panel
+- Interview Scheduling Module
+- Certification & Assessment Engine
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Team
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Team CodeManiacs  
+Hackathon Project – SkillTorch
